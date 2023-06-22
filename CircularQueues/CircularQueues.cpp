@@ -41,7 +41,7 @@ public:
 	void remove() {
 		//Cek apakah antrian kosong
 		if (FRONT == -1) {
-			cout << "\nQueue overflow\n";
+			cout << "\nQueue underflow\n";
 			return;
 		}
 	}
